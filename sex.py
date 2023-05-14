@@ -13,8 +13,8 @@ import swordgame
 
 app = web.application(('(.*)', 'SexHack'), globals())
 web.config.debug = False
-host = "127.0.0.1"
-port = 8000
+host = "0.0.0.0"
+port = 8080
 
 # Load images into memory
 with open("img/sex_default.png", "rb") as f:
